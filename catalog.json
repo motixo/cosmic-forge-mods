@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "revision": 1,
+  "mods": [
+    {
+      "id": "penumbra",
+      "section": "panel",
+      "name": "Penumbra",
+      "description": "Fade the panel background towards the desktop.",
+      "engine_revision": 1,
+      "controls": [
+        {"key": "penumbra_enabled", "kind": "boolean", "label": "Enable Penumbra", "description": "Enabling removes the panel's edge gap."},
+        {"key": "gradient_height", "kind": "integer", "label": "Gradient extent", "min": 16, "max": 512},
+        {"key": "panel_opacity", "kind": "integer", "label": "Panel opacity", "min": 0, "max": 100, "unit": "%"},
+        {"key": "maximized_opacity", "kind": "integer", "label": "Maximized opacity", "min": 0, "max": 100, "unit": "%"}
+      ]
+    },
+    {
+      "id": "panel-color",
+      "section": "panel",
+      "name": "Panel Color",
+      "description": "Independent panel colors for light and dark themes.",
+      "engine_revision": 1,
+      "controls": [
+        {"key": "forge_colors", "kind": "theme_color", "label": "Panel color"}
+      ]
+    }
+  ]
+}
