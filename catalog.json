@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "revision": 5,
+  "revision": 6,
   "mods": [
     {
       "id": "penumbra",
@@ -12,8 +12,7 @@
         {
           "key": "penumbra_enabled",
           "kind": "boolean",
-          "label": "Enable Penumbra",
-          "description": "Enabling removes the panel's edge gap."
+          "label": "Enable Penumbra"
         },
         {
           "key": "gradient_height",
