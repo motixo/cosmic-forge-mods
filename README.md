@@ -7,7 +7,7 @@ The [engine](https://github.com/motixo/cosmic-forge-engine) supplies native capa
 
 Edit `catalog.json`, increase `revision`, then publish a `mods-v*` tag. GitHub Actions
 packages the release. Forge 0.8+ checks every six hours while open, or immediately
-through **Settings → Check for mod updates**. Downloads are size-limited and SHA-256
+through the **header update button**. Downloads are size-limited and SHA-256
 verified. Updating the catalog does not activate mods or change desktop preferences.
 
 To add a panel mod, copy an entry with a unique `id`, then customize its name,
