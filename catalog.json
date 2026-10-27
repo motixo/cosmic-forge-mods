@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "revision": 2,
+  "revision": 3,
   "mods": [
     {
       "id": "penumbra",
@@ -51,6 +51,35 @@
           "key": "forge_colors",
           "kind": "theme_color",
           "label": "Panel color"
+        }
+      ]
+    },
+    {
+      "id": "lockscreen-background",
+      "section": "lock_screen",
+      "name": "Background",
+      "description": "Choose a separate lock screen background, or follow your desktop wallpaper.",
+      "engine_revision": 1,
+      "controls": [
+        {
+          "key": "wallpaper",
+          "kind": "image",
+          "label": "Background image"
+        }
+      ]
+    },
+    {
+      "id": "lockscreen-media",
+      "section": "lock_screen",
+      "name": "Media player widget",
+      "description": "Playback controls, track details and album artwork from your media apps on the lock screen.",
+      "engine_revision": 1,
+      "controls": [
+        {
+          "key": "media_enabled",
+          "kind": "boolean",
+          "label": "Enable media player widget",
+          "description": "Show playing or paused MPRIS players while the screen is locked."
         }
       ]
     }

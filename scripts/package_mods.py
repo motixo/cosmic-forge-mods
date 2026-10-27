@@ -15,7 +15,7 @@ def package():
         raise ValueError('Invalid mod count')
     ids = set()
     for mod in mods:
-        if mod['id'] in ids or mod['section'] != 'panel' or not mod['controls'] or mod['engine_revision'] < 1:
+        if mod['id'] in ids or mod['section'] not in ('panel', 'lock_screen') or not mod['controls'] or mod['engine_revision'] < 1:
             raise ValueError('Invalid or duplicate mod')
         ids.add(mod['id'])
     data = (json.dumps(catalog, indent=2, ensure_ascii=False, allow_nan=False) + '\n').encode()
