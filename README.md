@@ -7,7 +7,7 @@ Requires Forge 0.9+; each mod declares its native engine revision.
 
 [Install COSMIC Forge](https://github.com/motixo/cosmic-forge#install) with the
 one-line installer or native DEB, RPM and Arch packages. Enable mods in the app;
-install required engines from **Settings → Engine**.
+install required engines from **Settings → Patches**.
 
 Edit `catalog.json`, increase `revision`, then publish a `mods-v*` tag.
 The header update button checks effects, mods and engine releases together.
