@@ -34,4 +34,4 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
           TAG: ${{ github.ref_name }}
-        run: gh release create "$TAG" release/* --verify-tag --latest --title "$TAG" --notes 'Declarative COSMIC Forge mod catalog. Requires Forge 0.8 or newer; engine requirements are declared per mod.'
+        run: gh release create "$TAG" release/* --verify-tag --latest --title "$TAG" --notes 'Declarative COSMIC Forge mod catalog. Requires Forge 0.9 or newer; engine requirements are declared per mod.'
