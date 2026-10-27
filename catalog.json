@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "revision": 3,
+  "revision": 4,
   "mods": [
     {
       "id": "penumbra",
@@ -57,14 +57,14 @@
     {
       "id": "lockscreen-background",
       "section": "lock_screen",
-      "name": "Background",
-      "description": "Choose a separate lock screen background, or follow your desktop wallpaper.",
+      "name": "Wallpaper",
+      "description": "Choose a separate lock screen wallpaper, or follow your desktop wallpaper.",
       "engine_revision": 1,
       "controls": [
         {
           "key": "wallpaper",
           "kind": "image",
-          "label": "Background image"
+          "label": "Wallpaper image"
         }
       ]
     },

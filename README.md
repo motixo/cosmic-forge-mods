@@ -1,7 +1,7 @@
 # COSMIC Forge Mods
 
 Downloadable mod catalog for [COSMIC Forge](https://github.com/motixo/cosmic-forge).
-Includes **Penumbra**, **Color**, and the Lock screen **Background** and **Media player widget** mods.
+Includes **Penumbra**, **Color**, and the Lock screen **Wallpaper** and **Media player widget** mods.
 Requires Forge 0.9+; each mod declares its native engine revision.
 [Shaders](https://github.com/motixo/cosmic-forge-shaders) are distributed separately.
 
