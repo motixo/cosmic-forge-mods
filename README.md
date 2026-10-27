@@ -5,6 +5,10 @@ Includes **Penumbra**, **Color**, and the Lock screen **Wallpaper** and **Media 
 Requires Forge 0.9+; each mod declares its native engine revision.
 [Shaders](https://github.com/motixo/cosmic-forge-shaders) are distributed separately.
 
+[Install COSMIC Forge](https://github.com/motixo/cosmic-forge#install) with the
+one-line installer or native DEB, RPM and Arch packages. Enable mods in the app;
+install required engines from **Settings → Engine**.
+
 Edit `catalog.json`, increase `revision`, then publish a `mods-v*` tag.
 The header update button checks effects, mods and engine releases together.
 Catalogs are verified JSON data; updates never install engines or enable mods.
