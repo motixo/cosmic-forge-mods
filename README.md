@@ -1,7 +1,7 @@
 # COSMIC Forge Mods
 
 The downloadable mod catalog for [COSMIC Forge](https://github.com/motixo/cosmic-forge).
-Currently includes **Penumbra** and **Panel Color**, with independent light/dark colors.
+Currently includes **Penumbra** and **Color**, with independent light/dark colors.
 The [engine](https://github.com/motixo/cosmic-forge-engine) supplies native capabilities;
 [glass shaders](https://github.com/motixo/cosmic-forge-shaders) remain separate.
 
