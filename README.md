@@ -21,7 +21,7 @@ Optional `preset` maps declared boolean/integer keys to values and adds **Apply 
 Presets apply only when clicked. Set `engine_revision` to the panel revision required
 by the mod; Forge blocks controls until that engine is installed. New native behavior
 still needs an engine update. Catalogs contain no scripts or arbitrary file paths.
-Lock screen mods await engine support and are not published yet.
+Lock screen mods await engine and app support and are not published yet.
 
 ```sh
 python scripts/package_mods.py
