@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "revision": 4,
+  "revision": 5,
   "mods": [
     {
       "id": "penumbra",
@@ -78,8 +78,7 @@
         {
           "key": "media_enabled",
           "kind": "boolean",
-          "label": "Enable media player widget",
-          "description": "Show playing or paused MPRIS players while the screen is locked."
+          "label": "Enable media player widget"
         }
       ]
     }
